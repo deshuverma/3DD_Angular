@@ -232,7 +232,12 @@
               <label id="lblFromFlight" text="From" >From</label>
             </td>
             <td>
-<input type="text" id="txtFromflight">
+
+<select>
+<option ngFor='let pizza of pizzalist'>
+  {{pizza}}
+</option>
+</select>
             </td>
           </tr>
           <tr>
@@ -265,7 +270,7 @@
               
             </td>
             <td>
-             <input type="button" id="btnShowFlight" style="height: 100px; width:100px;">
+            <button id="btnShowFlight"  style="height: 50px; width:70px;">Search</button>
             </td>
           </tr>
         </table>

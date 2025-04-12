@@ -9,6 +9,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'my-angular-app';
-  pizzalist: string[]=['USA','UK','India'];
+  pizza: string[]=['USA','UK','India', 'Pak'];
 
 }

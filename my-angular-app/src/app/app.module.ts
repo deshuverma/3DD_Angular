@@ -1,6 +1,8 @@
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { BrowserModule } from "@angular/platform-browser";
+import { AppRoutingModule } from "./app.routing.module";
+import { DropDownListModule } from "@syncfusion/ej2-angular-dropdowns";
 
 @NgModule({
 
@@ -8,7 +10,9 @@ import { BrowserModule } from "@angular/platform-browser";
      AppComponent       
     ],
     imports:[
-BrowserModule
+BrowserModule,
+AppRoutingModule,
+DropDownListModule
 
     ],
     providers:[],
